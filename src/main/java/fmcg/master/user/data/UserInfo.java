@@ -1,6 +1,8 @@
-package fmcg.master.setup.data;
+package fmcg.master.user.data;
 
 import java.util.Date;
+
+import fmcg.master.setup.data.CommonData;
 
 public class UserInfo extends CommonData {
 	private String id;

@@ -1,6 +1,9 @@
-package fmcg.master.setup.data;
+package fmcg.master.user.data;
 
 import java.util.Collection;
+
+import fmcg.master.setup.data.CommonData;
+import fmcg.master.setup.data.Menu;
 
 public class UserTypeMenuMap extends CommonData {
 	private String id;

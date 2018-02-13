@@ -1,9 +1,12 @@
-package fmcg.master.setup.data;
+package fmcg.master.user.data;
 
 import java.util.Collection;
 import java.util.Date;
 
 import javax.persistence.OneToMany;
+
+import fmcg.master.setup.data.CommonData;
+import fmcg.master.setup.data.PasswordHistory;
 
 public class User extends CommonData {
 	private String userId;
