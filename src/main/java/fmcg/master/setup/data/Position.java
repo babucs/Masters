@@ -16,6 +16,15 @@ public class Position extends CommonData{
 	private Collection<Role> role;
 	@OneToMany
 	private Collection<HeadQuarter> headQuarter;
+	@OneToMany
+	private Collection<PositionParentPositionMap> parentPositionMaps;
+	
+	public Collection<PositionParentPositionMap> getParentPositionMaps() {
+		return parentPositionMaps;
+	}
+	public void setParentPositionMaps(Collection<PositionParentPositionMap> parentPositionMaps) {
+		this.parentPositionMaps = parentPositionMaps;
+	}
 	public String getPositionCode() {
 		return positionCode;
 	}
